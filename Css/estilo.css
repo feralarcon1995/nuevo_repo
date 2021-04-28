@@ -1,0 +1,1133 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/*------ Navegador ----*/
+
+.menu {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.nav ul{
+  display: flex;
+  align-content: center;
+  padding-top:10px;
+  list-style: none;
+  
+}
+.nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  padding: 20px;
+  align-self: center;
+  transition: 1s;
+
+}
+
+.logo img{
+ width: 20%;
+}
+
+.logo a{
+  position: relative;
+  top: 6px;
+  left: 50px;
+}
+
+.nav a:hover{
+  text-decoration: underline ;
+  color :#6200ff;
+}
+
+
+/*------ Body ------*/
+/*--- main ----*/
+.main{
+  background-image: url(../imagenes/fondo.jpg);
+  background: cover;
+  height: 1550px;
+}
+/*------ Carousel Bootstrap ---- */
+
+.carousel-inner{
+  height: 500px;
+}
+
+
+/*----- Fin corousel bootstrap ---- */
+
+.contenedor{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    overflow: hidden;
+    padding: 40px;
+    
+}
+
+.card{
+  grid-column: 2/span 10;
+  grid-row: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0.5px 0.5px 10px 0.5px #3d3d3d;
+  transition: 1s;
+}
+.card-img-top{
+  height: 600px;
+}
+.card-title{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  color:#000;
+}
+
+.card:hover{
+  transform: scale(1.04);
+}
+
+section{
+  background-color: #192d8e;
+background-image: url(../imagenes/fondo.jpg);
+background-size: cover;
+    margin: 0;
+}
+
+/* ----- Integrantes ---- */
+.integrantes{
+    
+    background-color: #192d8e;
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin: 0;
+}
+
+.cartaGrilla{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: auto;
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+.cartaUno{
+  margin: 10px;
+  grid-column: 1/span 12;
+  grid-row: 1;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  color: #000;
+  box-shadow: 5px 1px 10px #ccc;
+  transition: 1s;
+ 
+}
+
+.cartaDos{
+  margin: 10px;
+  grid-column: 1/span 12;
+  grid-row: 2;
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 5px 1px 10px #ccc;
+  transition: 1s;
+}
+
+.cartaTres{
+  margin: 10px;
+  grid-column: 1/span 12;
+  grid-row: 3;
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 5px 1px 10px #ccc;
+  transition: 1s;
+}
+
+.cartaCuatro{
+  margin: 10px;
+  grid-column: 1/span 12;
+  grid-row: 4;
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 5px 1px 10px #ccc;
+  transition: 1s;
+}
+.cartaCinco{
+  margin: 10px;
+  grid-column: 1/span 12;
+  grid-row: 5;
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 5px 1px 10px #ccc;
+  transition: 1s;
+}
+
+.cartaSeis{
+  margin: 10px;
+  grid-column: 1/span 12;
+  grid-row: 6;
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 5px 1px 10px #ccc;
+  transition: 1s;
+}
+
+.cartaUno div{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cartaDos div{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cartaTres div{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cartaCuatro div{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cartaCinco div{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cartaSeis div{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cartaTitulo{
+  font-family: 'Bebas Neue', cursive;
+  color: #000;
+  text-decoration: underline;
+  font-size: 30px;
+  padding-left: 20px;
+}
+.cartaParrafo{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #3f3f3f;
+  font-size: 20px;
+
+}
+.cartaUno:hover{
+  transform: scale(1.04);
+  box-shadow: 5px 1px 10px rgb(89, 0, 255);
+
+}
+.cartaDos:hover{
+  transform: scale(1.04);
+  box-shadow: 5px 1px 10px rgb(89, 0, 255);
+}
+.cartaTres:hover{
+  transform: scale(1.04);
+  box-shadow: 5px 1px 10px rgb(89, 0, 255);
+
+}
+.cartaCuatro:hover{
+  transform: scale(1.04);
+  box-shadow: 5px 1px 10px rgb(89, 0, 255);
+
+}
+.cartaCinco:hover{
+  transform: scale(1.04);
+  box-shadow: 5px 1px 10px rgb(89, 0, 255);
+
+}
+.cartaSeis:hover{
+  transform: scale(1.04);
+  box-shadow: 5px 1px 10px rgb(89, 0, 255);
+
+}
+
+/*--------- Final integrantes flexbox ------ */
+
+
+.titulo {
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    color:#fff;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 20px; 
+}
+
+/* ------ Discografia Css Grid---- */
+.discoGrilla {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 400px 400px 400px 400px 400px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  grid-gap: 20px;
+  grid-template-areas: "disco1 disco1 disco3"
+                       "disco2 disco2 disco3"
+                       "disco4 disco4 disco4"
+                       "disco5 disco6 disco6"
+                       "disco5 disco7 disco7";
+justify-content: center;
+text-align: center;
+padding: 30px;
+transition: 1s;
+  
+}
+
+.discoUno{
+  grid-area: disco1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #eee;
+  transition: 1s;
+} 
+
+.discoDos{
+  grid-area: disco2;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #eee;
+  transition: 1s;
+}
+.discoTres{
+  grid-area: disco3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  transition: 1s;
+}
+.discoCuatro{
+  grid-area: disco4;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #1a1a1a;
+  transition: 1s;
+}
+.discoCinco{
+  grid-area: disco5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  transition: 1s;
+  }
+
+.discoSeis{
+   grid-area: disco6;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #eee;
+  transition: 1s;
+}
+.discoSiete{
+  grid-area: disco7;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #eee;
+  transition: 1s;
+}
+
+ol li{
+  color: rgb(49, 49, 49);
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  justify-items: flex-start;
+  position: relative;
+  left: 60px;
+  top: 30px;
+}
+
+.discoTitulo {
+  color: #000;
+  font-family: 'Bebas Neue', cursive;
+  position: relative;
+  top: 20px;
+}
+
+.discParrafo{
+  color: #353535;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  position: relative;
+  top:40px;
+  left: 20px;
+}
+
+.discParrafo-1{
+  color: #353535;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  position: relative;
+  top:40px;
+  left: 1px;
+
+}
+.discoTitulo-1 {
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+  position: relative;
+  top: 20px;
+}
+
+
+.discoLista-1 li{
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.discParrafo-2{
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  position: relative;
+  left: 500px;
+}
+.discoUno:hover{
+  transform: scale(1.04);}
+.discoDos:hover{
+  transform: scale(1.04);
+}
+.discoTres:hover{
+  transform: scale(1.04);
+}
+.discoCuatro:hover{
+  transform: scale(1.04);
+}
+.discoCinco:hover{
+  transform: scale(1.04);
+
+}
+.discoSeis:hover{
+  transform: scale(1.04);
+
+}
+.discoSiete:hover{
+  transform: scale(1.04);
+
+}
+ /*--- ------ final de discografia ---- */
+
+ /*------ Galeria -----*/
+
+.galeriaContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense;
+}
+ 
+.galeriaItem-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/galeria1.jpg);
+    align-content: center;
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+  }
+
+  .galeriaItem-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/galeria11.jpg);
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .galeriaItem-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/galeria3.jpg);
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .galeriaItem-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/galeria4.jpg);
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .galeriaItem-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/galeria5.jpg);
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .galeriaItem-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/galeria6.jpg);
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .galeriaItem-7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/galeria7.jpg);
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .galeriaItem-8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/galeria8.jpg);
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .galeriaItem-9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/galeria13.jpg);
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .galeriaItem-10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/galeria12.jpg);
+    align-content: center;
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.wide {
+    grid-column: span 2;
+  }
+.galeriaContainer div{
+  transition: 1s;
+  border: 1px solid #fff;
+}
+.galeriaContainer div:hover{
+  transform: scale(1.04);
+  box-shadow: 3px 3px 3px #838383;
+
+}
+/*---- Final Galeria ----*/
+/*------- Contacto ------- */
+.formCont{
+  background-image: url(../imagenes/fondo.jpg);
+  height: 900px;
+  padding:30px;
+  padding-left: 330px;
+  padding-top: 80px;
+}
+
+.formulario{
+  background: rgb(2,0,36);
+  background: linear-gradient(69deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(123,0,138,1) 100%); 
+  width: 600px;
+  height: 750px;
+  border-radius: 8px;
+  padding: 30px;
+  padding-left: 20px;
+}
+
+.formLabel{
+  display:block;
+  font-family: 'Bebas Neue', cursive;
+  color:#6200ff;
+  font-size: 20px;
+  padding: 10px;
+  position: relative;
+  letter-spacing: 1px;
+}
+
+.label{
+  font-size: 15px;
+}
+.labelDos{
+  position: relative;
+  bottom: 32px;
+  left: 300px;
+  background-color: #4f1aa35b;
+  border: none;
+  padding: 5px;
+  color:#fff;
+}
+.formInput, .formTextarea{
+  background-color: #4f1aa35b;
+  border: none;
+  border-bottom: 2px solid #6200ff;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+.formTextarea{
+  height: 100px;
+}
+
+.ask{
+  font-size: 20px;
+}
+.tituForm{
+  font-size: 70px;
+  color:#6200ff;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: 1s;
+
+}
+
+.tituForm:hover{
+  text-decoration: underline #6200ff;
+  transform: scale(1.06);
+
+}
+span{
+  font-size: 55px;
+  color: #fff;
+}
+.boton{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(63,5,129,1) 0%, rgba(123,0,138,1) 100%); 
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  color:#fff;
+  padding: 5px;
+  margin: 20px;
+  margin-left: 50px;
+  transition: 1s;
+
+}
+
+.boton:hover{
+  background: rgb(119,0,255);
+  background: linear-gradient(0deg, rgba(119,0,255,1) 0%, rgba(227,0,255,1) 100%); 
+  transform: scale(1.04);
+
+
+}
+
+.formInput:hover{
+  background-color: #6200ff6e;
+  border-bottom: 2px solid #7b008a;
+
+}
+.formTextarea:hover{
+ 
+    background-color: #6200ff6e;
+    border-bottom: 2px solid #7b008a;
+  
+  }
+
+/*------ Final Contacto ------- */
+ /*----- Footer ---------*/
+
+.footerPadre{
+  background: #192D8E;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerHijo{
+    display: flex;
+    align-self: left;
+    transition: 1s;
+}
+
+.footerHijo p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.footerHijo img{
+    width: 25px;
+    padding: 5px;
+    align-items: center;
+
+}
+.footerHijo a{
+  align-self: center;
+  transition: 1s;
+}
+
+.footerHijo a:hover{
+  transform: scale(1.2);
+}
+
+
+@media only screen and (max-width: 768px){
+
+  
+  .nav ul{
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    
+  }
+  .nav ul li a {
+    font-size: 20px;
+  }
+  
+  .logo img{
+   width: 17%;
+  }
+  
+  .logo a{
+    position: relative;
+    bottom: 1px;
+    left: 30px;
+  }
+  
+ i{
+   padding-left: 5px;
+   position: relative;
+   left: 70px;
+ }
+.contenedor{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: auto;
+  
+}
+
+.main{
+  height: 1300px;
+}
+
+.card{
+  grid-column: 1/span 8;
+  grid-row: 1;
+}
+.card-title{
+  font-size: 30px;
+}
+
+
+/*----- Integrantes ----*/
+.cartaGrilla{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: auto;
+  width: 100%;
+  overflow: hidden;
+  
+}
+.cartaTitulo{
+  font-size: 20px;
+}
+.cartaParrafo{
+  font-size: 15px;
+}
+
+/*---- Discografia ----*/
+
+.discoGrilla{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: autox;
+}
+
+.discoTitulo {
+  color: #000;
+  position: relative;
+  top: 10px;
+}
+
+.discParrafo{
+  font-size: 12px;
+  position: relative;
+  top: 5px;
+  left: 2px;
+}
+
+
+ol li{
+  
+  position: relative;
+  left: 20px;
+  top: 8px;
+}
+.discoTitulo-1{
+  position: relative;
+  top: 5px;
+  left: 60px;
+}
+.discParrafo-2{
+  color: #fff;
+  
+  font-size: 12px;
+  position: relative;
+  left: 50px;
+}
+/*------ Contacto ---*/
+.formCont{
+ 
+  height: 800px;
+  padding:30px;
+  padding-left: 90px;
+  padding-top: 20px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 480px){
+  .menu {
+    background-color: #000;
+    display: block;
+    justify-content: space-between;
+    
+  }
+  .nav ul{
+    display: block;
+    align-content: center;
+    padding: 15px;
+    
+  }
+  .nav ul li a {
+    font-size: 25px;
+    padding: 20px;
+    transition: 1s;
+  
+  }
+  
+  .logo img{
+   width: 15%;
+   padding-left: 30px;
+  }
+  
+  .logo a{
+    position: relative;
+    top: 5px;
+    left: 5px;
+  }
+i{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+  /*------ */
+  .contenedor{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto ;
+    padding: 30px;
+  }
+.main{
+  height: 950px;
+}
+/*---- carousel --- */
+.carousel-inner{
+  height: 250px;
+}
+
+  /*---- Integrantes ---*/
+  .card{
+    grid-column: 1/span 4;
+    grid-row: 1;
+    
+  }
+  
+  .card-img-top{
+    height: 300px;
+  }
+  .card-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+  }
+  
+  /*----- Integrantes ----*/
+.cartaGrilla{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+  width: 600px;
+  overflow: hidden;
+  padding: 10px;
+  padding-right: 40px;
+  
+}
+
+.cartaUno{
+  width: 100%;
+  grid-column: 1/span 3;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+}
+.cartaDos{
+  width: 100%;
+  grid-column: 1/span 3;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+}
+.cartaTres{
+  width: 100%;
+  grid-column: 1/span 3;
+  grid-row: 3;
+  display: flex;
+  flex-direction: column;
+}
+.cartaCuatro{
+  width: 100%;
+  grid-column: 1/span 3;
+  grid-row: 4;
+  display: flex;
+  flex-direction: column;
+}
+.cartaCinco{
+  width: 100%;
+  grid-column: 1/span 3;
+  grid-row: 5;
+  display: flex;
+  flex-direction: column;
+}
+.cartaSeis{
+  width: 100%;
+  grid-column: 1/span 3;
+  grid-row: 6;
+  display: flex;
+  flex-direction: column;
+}
+.cartaTitulo{
+  font-size: 20px;
+}
+.cartaParrafo{
+  font-size: 18px;
+}
+
+/*---- Discografia ----*/
+
+.discoGrilla{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+  padding: 20px;
+  padding-left: 100px;
+}
+
+.discoUno{
+  width: 100%;
+  grid-column: 1/span 3;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+} 
+.discoDos{
+  width: 100%;
+  grid-column: 1/span 3;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+} 
+.discoTres{
+  width: 100%;
+  grid-column: 1/span 3;
+  grid-row: 3;
+  display: flex;
+  flex-direction: column;
+} 
+.discoCuatro{
+  width: 100%;
+  grid-column: 1/span 3;
+  grid-row: 4;
+  display: flex;
+  flex-direction: column;
+} 
+.discoCinco{
+  width: 100%;
+  grid-column: 1/span 3;
+  grid-row: 5;
+  display: flex;
+  flex-direction: column;
+} 
+.discoSeis{
+  width: 100%;
+  grid-column: 1/span 3;
+  grid-row: 6;
+  display: flex;
+  flex-direction: column;
+} 
+.discoSiete{
+  width: 100%;
+  grid-column: 1/span 3;
+  grid-row: 7;
+  display: flex;
+  flex-direction: column;
+} 
+
+.discParrafo-1{
+  position: relative;
+  top: 3px;
+  font-size: 13px;
+}
+.discoTitulo-1{
+  position: relative;
+  left: 5px;
+}
+.discParrafo-2{
+  position: relative;
+  left: 5px;
+}
+
+
+.wide{
+  grid-column: span 1;
+}
+/*------ Contacto ---*/
+.formCont{
+  width: 100%;
+  height: 800px;
+  padding:30px;
+  padding-left: 40px;
+  padding-top: 70px;
+}
+
+.formulario{
+  
+  width: 400px;
+  height: 630px;
+  border-radius: 8px;
+  padding: 20px;
+  padding-left: 25px;
+}
+
+.formLabel{
+  font-size: 15px;
+  padding: 10px;
+  position: relative;
+  letter-spacing: 1px;
+}
+
+.label{
+  font-size: 10px;
+}
+.labelDos{
+  position: relative;
+  bottom: 32px;
+  left: 200px;
+}
+
+.formTextarea{
+  height: 60px;
+}
+
+.ask{
+  font-size: 15px;
+}
+.tituForm{
+  font-size: 50px;
+}
+
+span{
+  font-size: 35px;
+}
+.boton{
+  width: 100px;
+
+}
+
+.footerHijo p{
+  font-size: 15px;
+}
+
+}
+
+  
+  
